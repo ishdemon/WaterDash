@@ -12,7 +12,7 @@ https://user-images.githubusercontent.com/13925683/173885864-31b2fc91-7812-45ce-
 
 
 <br>
-Jokes aside, traditional systems in market are pretty dumb and not at all smart. It uses a contact based sensor to know whether tank is full or not..
+Jokes aside, traditional systems in market are pretty dumb and not at all smart. It uses a contact based sensor to know whether tank is full or not..<br>
 - doesn't tell you how much water is there in tank<br>
 - doesn't have App/remote access<br>
 - not smart at all<br>
@@ -22,7 +22,7 @@ Jokes aside, traditional systems in market are pretty dumb and not at all smart.
 <img src="/images/DashApp.png" height=300>
 <br><br>
 <img src="https://github.com/mqtt/mqttorg-graphics/blob/master/mqtt-logo-250.png">
-ESP32 also communicates with an MQTT Broker, in my case https://mosquitto.org/ locally hosted in a RaspberryPi. Since my users will just be under 10 at most, i chose to host it local but one can use a MQTT broker service if needs to handle large users.
+ESP32 also communicates with an MQTT Broker. It publishes all the data to the broker. In my case https://mosquitto.org/ locally hosted in a RaspberryPi. Since my users will just be under 10 at most, i chose to host it local but one can use a Cloud MQTT service if need to handle large users.
 <br><br><img src="https://mqtt.org/assets/img/mqtt-publish-subscribe.png" height= 200>
 <h3>Companion Phone App</h3>
 <img src="/images/22-06-08-00-22-33_AdobeExpress.gif"> 
