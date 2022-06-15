@@ -1,5 +1,6 @@
 # WaterDash
-Water monitoring system that automatically controls Motor Pump using Android &amp; ESP32 & MQTT.
+Water monitoring system that automatically controls Motor Pump using Android &amp; ESP32 & MQTT.<br>
+<img src = "https://source.android.com/setup/images/Android_symbol_green_RGB.svg" width ="50" />  <img src = "https://github.com/mqtt/mqttorg-graphics/blob/master/mqtt-logo-250.png" width ="100" />  <img src = "https://upload.wikimedia.org/wikipedia/commons/8/87/Arduino_Logo.svg" width ="50" />
 
 
 <h3> Why? </h3>
@@ -31,8 +32,7 @@ ESP32 also communicates with an MQTT Broker. It publishes all the sensor data to
 <h1> Hardware </h1>
 <h3></h3>
 <h3>ESP32 Module</h3>
-<img src="https://user-images.githubusercontent.com/13925683/173888833-a4678612-ddda-4a06-8c7f-fda6d6ac598b.png">
-
+<img src="https://user-images.githubusercontent.com/13925683/173888833-a4678612-ddda-4a06-8c7f-fda6d6ac598b.png"/> <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Arduino_Logo.svg" height = 100/>
 ESP32 board is the MCU that i have programmed to control the pump & collects data from various sensors ( Energy, LPG/Smoke, etc). It communicates with an Android device over USB Serial communication to display all the data. Firmware is written in C++ uisng Arduino framework.
 <h3></h3>
 <h3>Android Phone(5.0+) with USB OTG supported</h3>
