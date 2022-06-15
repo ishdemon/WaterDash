@@ -33,7 +33,7 @@ ESP32 also communicates with an MQTT Broker. It publishes all the sensor data to
 <h3>ESP32 Module</h3>
 <img src="https://user-images.githubusercontent.com/13925683/173888833-a4678612-ddda-4a06-8c7f-fda6d6ac598b.png">
 
-ESP32 board is the MCU that controls the pump & collects data from various sensors ( Energy, LPG/Smoke, etc). It communicates with an Android device over USB Serial communication to display all the data.
+ESP32 board is the MCU that i have programmed to control the pump & collects data from various sensors ( Energy, LPG/Smoke, etc). It communicates with an Android device over USB Serial communication to display all the data. Firmware is written in C++ uisng Arduino framework.
 <h3></h3>
 <h3>Android Phone(5.0+) with USB OTG supported</h3>
 Android phone maintains a serial connection with the ESP32 board & recieves data (JSON payload) every second. Its a full duplex connection so it also sends controls commands back to the board. I have used a rooted Samsung galaxy S4 with lineage OS to keep it light as possible.<br>
