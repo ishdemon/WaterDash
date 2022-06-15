@@ -12,10 +12,10 @@ https://user-images.githubusercontent.com/13925683/173885864-31b2fc91-7812-45ce-
 
 
 <br>
-Jokes aside, traditional systems in market are pretty dumb and not at all smart. It uses a contact based sensor to know whetehr tank is full or not..
-- doesn't tell you how much water is there in tank
-- doesn't have App/remote access
-- not smart at all
+Jokes aside, traditional systems in market are pretty dumb and not at all smart. It uses a contact based sensor to know whether tank is full or not..
+- doesn't tell you how much water is there in tank<br>
+- doesn't have App/remote access<br>
+- not smart at all<br>
 
 <h1> Software </h1>
 <h3>DashBoard</h3>
