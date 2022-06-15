@@ -1,10 +1,17 @@
 # WaterDash
-Water monitoring system using Android &amp; ESP32 & MQTT.
+Water monitoring system that automatically controls Motor Pump using Android &amp; ESP32 & MQTT.
 
 
-<h1> Why & How </h1>
-Lets be real who doesn't hate this : <br>
-https://raw.githubusercontent.com/ishdemon/WaterDash/main/images/meme.mp4<br>
+<h3> Why? </h3>
+<i>Lets be real who doesn't hates this 😁👉</i>  <br><br>
+
+
+
+https://user-images.githubusercontent.com/13925683/173885864-31b2fc91-7812-45ce-8751-cfe405e3365e.mp4
+
+
+
+<br>
 Jokes aside, traditional systems in market are pretty dumb and not at all smart. It uses a contact based sensor to know whetehr tank is full or not..
 - doesn't tell you how much water is there in tank
 - doesn't have App/remote access
