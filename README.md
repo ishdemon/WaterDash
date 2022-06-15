@@ -28,11 +28,11 @@ ESP32 also communicates with an MQTT Broker. It publishes all the sensor data to
 <img src="/images/22-06-08-00-22-33_AdobeExpress.gif"> 
 
 
-
-
 <h1> Hardware </h1>
 <h3></h3>
 <h3>ESP32 Module</h3>
+<img src="https://user-images.githubusercontent.com/13925683/173888833-a4678612-ddda-4a06-8c7f-fda6d6ac598b.png">
+
 ESP32 board is the MCU that controls the pump & collects data from various sensors ( Energy, LPG/Smoke, etc). It communicates with an Android device over USB Serial communication to display all the data.
 <h3></h3>
 <h3>Android Phone(5.0+) with USB OTG supported</h3>
