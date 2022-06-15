@@ -64,4 +64,9 @@ Flow             |  No Flow
 <img src="/images/3.png" height=300>
 <img src="/images/4.png" height=300>
 
+<h2>Challenges faced</h2>
+Since USB will be occupied for communicating with ESP32 MCU, you can't really charge the phone. I had to figure out to run the phone without USB power. 
+Tried using a Li-ion charger board to directly charge the battery but it got heated up quite a bit.
+Managed to run the device directly without battery by supplying a ~4.4v directly onto terminals. Phone detects it as a battery & it always shows 100%. Great success!
+
 
