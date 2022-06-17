@@ -22,7 +22,7 @@ Jokes aside, traditional systems in market are pretty dumb and not at all smart.
 <h3>DashBoard</h3>
 <img src="/images/DashApp.png" height=300>
 <br><br>
-<img src="https://github.com/mqtt/mqttorg-graphics/blob/master/mqtt-logo-250.png">
+<img src="https://github.com/mqtt/mqttorg-graphics/blob/master/mqtt-logo-250.png"/>
 ESP32 also communicates with an MQTT Broker. It publishes all the sensor data to the broker. In my case https://mosquitto.org/ locally hosted in a RaspberryPi. Since my users will just be under 10 at most, i chose to host it local but one can use a Cloud MQTT service if need to handle large users.
 <br><br><img src="https://mqtt.org/assets/img/mqtt-publish-subscribe.png" height= 200>
 <h3>Companion Phone App</h3>
@@ -70,7 +70,8 @@ Tried using a Li-ion charger board to directly charge the battery but it got hea
 Managed to run the device directly without battery by supplying a ~4.4v directly onto terminals. Phone detects it as a battery & it always shows 100%. Great success!
 
 <h1>Older Versions/Prototype</h1>
-<img src="https://github.com/ishdemon/WiFi-Autonomous-Pump-controller/blob/master/images/finished.jpg"/>
+<img src="https://github.com/ishdemon/WiFi-Autonomous-Pump-controller/blob/master/images/finished.jpg" height=500/>
+<br>
 I started simple with just ESP32 & a relay module to just turn motor on& off remotely. later then iterated & added a ultrasonic sensor to measure the tank level & automated the filling task. Then kept on adding various sensors & an OLED Display to show the data.
 
 
