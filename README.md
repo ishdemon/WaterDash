@@ -69,4 +69,8 @@ Since USB will be occupied for communicating with ESP32 MCU, you can't really ch
 Tried using a Li-ion charger board to directly charge the battery but it got heated up quite a bit.
 Managed to run the device directly without battery by supplying a ~4.4v directly onto terminals. Phone detects it as a battery & it always shows 100%. Great success!
 
+<h1>Older Versions/Prototype</h1>
+<img src="https://github.com/ishdemon/WiFi-Autonomous-Pump-controller/blob/master/images/finished.jpg"/>
+I started simple with just ESP32 & a relay module to just turn motor on& off remotely. later then iterated & added a ultrasonic sensor to measure the tank level & automated the filling task. Then kept on adding various sensors & an OLED Display to show the data.
+
 
