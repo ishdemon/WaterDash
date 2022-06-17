@@ -1,5 +1,5 @@
 # WaterDash
-Water monitoring system that automatically controls Motor Pump using Android &amp; ESP32 & MQTT.<br>
+<h3>Water monitoring system that automatically controls Motor Pump using Android &amp; ESP32 & MQTT</h3><br>
 <img src = "https://source.android.com/setup/images/Android_symbol_green_RGB.svg" width ="50" />  <img src = "https://github.com/mqtt/mqttorg-graphics/blob/master/mqtt-logo-250.png" width ="100" />  <img src = "https://upload.wikimedia.org/wikipedia/commons/8/87/Arduino_Logo.svg" width ="50" />
 
 
