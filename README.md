@@ -1,8 +1,8 @@
 # WaterDash
+<h3>Water monitoring system that automatically controls Motor Pump using Android &amp; ESP32 & MQTT</h3><br>
 <img src="https://github.com/ishdemon/WaterDash/assets/13925683/293a24e4-755d-4056-8377-d4e92c76095b" height=300/>
 <br><br>
 <img src="https://github.com/ishdemon/WaterDash/assets/13925683/44d1b9ae-1499-4afb-9ded-e3dadaee9fdb" height=400/>
-<h3>Water monitoring system that automatically controls Motor Pump using Android &amp; ESP32 & MQTT</h3><br>
 <img src = "https://source.android.com/setup/images/Android_symbol_green_RGB.svg" width ="50" />  <img src = "https://github.com/mqtt/mqttorg-graphics/blob/master/mqtt-logo-250.png" width ="100" />  <img src = "https://upload.wikimedia.org/wikipedia/commons/8/87/Arduino_Logo.svg" width ="50" />
 
 
@@ -14,7 +14,6 @@
 https://user-images.githubusercontent.com/13925683/173885864-31b2fc91-7812-45ce-8751-cfe405e3365e.mp4
 
 
-
 <br>
 Jokes aside, traditional systems in market are pretty dumb and not at all smart. It uses a contact based sensor to know whether tank is full or not..<br>
 - doesn't tell you how much water is there in tank<br>
@@ -23,11 +22,10 @@ Jokes aside, traditional systems in market are pretty dumb and not at all smart.
 
 <h1> Software </h1>
 <h3>DashBoard</h3>
-<h4>V2</h4>
-<img src="https://github.com/ishdemon/WaterDash/assets/13925683/293a24e4-755d-4056-8377-d4e92c76095b" height=300/>
-<br><br>
-<h4>V1</h4>
-<img src="/images/dashapp2.png" height=300>
+
+V1             |  V2
+:-------------------------:|:-------------------------:
+<img src="/images/dashapp2.png" height=250>  |  <img src="https://github.com/ishdemon/WaterDash/assets/13925683/293a24e4-755d-4056-8377-d4e92c76095b" height=250/>
 <br><br>
 <img src="https://github.com/mqtt/mqttorg-graphics/blob/master/mqtt-logo-250.png"/>
 ESP32 also communicates with an MQTT Broker. It publishes all the sensor data to the broker. In my case https://mosquitto.org/ locally hosted in a RaspberryPi. Since my users will just be under 10 at most, i chose to host it local but one can use a Cloud MQTT service if need to handle large users.Or can go to web-server route for totally local-only access.
