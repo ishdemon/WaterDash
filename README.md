@@ -25,7 +25,7 @@ Jokes aside, traditional systems in market are pretty dumb and not at all smart.
 
 V1             |  V2
 :-------------------------:|:-------------------------:
-<img src="/images/dashapp2.png" height=250>  |  <img src="https://github.com/ishdemon/WaterDash/assets/13925683/293a24e4-755d-4056-8377-d4e92c76095b" height=250/>
+<img src="/images/dashapp2.png" height=300>  |  <img src="https://github.com/ishdemon/WaterDash/assets/13925683/293a24e4-755d-4056-8377-d4e92c76095b" height=300/>
 <br><br>
 <img src="https://github.com/mqtt/mqttorg-graphics/blob/master/mqtt-logo-250.png"/>
 ESP32 also communicates with an MQTT Broker. It publishes all the sensor data to the broker. In my case https://mosquitto.org/ locally hosted in a RaspberryPi. Since my users will just be under 10 at most, i chose to host it local but one can use a Cloud MQTT service if need to handle large users.Or can go to web-server route for totally local-only access.
